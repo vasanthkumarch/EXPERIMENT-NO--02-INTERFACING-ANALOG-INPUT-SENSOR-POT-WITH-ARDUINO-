@@ -4,6 +4,8 @@
 
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
+
+
 **COMPONENTS REQUIRED:**
 1.	10 KΩPOT
 2.	1 KΩ resistor 
@@ -12,7 +14,7 @@
 5.	Connecting wires 
 6.	LED of choice 
 **
-THEORY:**
+**THEORY**: 
 Analog signals:
 Analog signals – directly measurable quantities in terms of some other quantity.
 Examples:
@@ -68,8 +70,9 @@ FIGURE -01
 
 
 
-
+**
 Simulation output: 
+**
 
 
 
@@ -78,5 +81,4 @@ Simulation output:
 
 
 
-
-RESULT:  Arduino uno analog input functioning is learned and interfaced with digital input switch .
+**RESULT: ** Arduino uno analog input functioning is learned and interfaced with digital input switch .
