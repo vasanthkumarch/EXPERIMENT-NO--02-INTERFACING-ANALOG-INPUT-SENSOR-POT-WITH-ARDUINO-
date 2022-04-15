@@ -14,8 +14,12 @@
 5.	Connecting wires 
 6.	LED of choice 
 **
+
+
 **THEORY**: 
-Analog signals:
+
+**Analog signals:**
+
 Analog signals – directly measurable quantities in terms of some other quantity.
 Examples:
 1. Thermometer – mercury height rises as temperature rises
@@ -45,8 +49,8 @@ CIRCUIT DIAGRAM
 
 ![image](https://user-images.githubusercontent.com/36288975/163530788-eec3cdc3-95e8-4d2d-8349-6d0ea4c9439c.png)
 
-FIGURE -01
-
+**FIGURE -01
+**
 
 **PROCEDURE:**
 1.	Connect the circuit as per the circuit diagram 
@@ -71,7 +75,7 @@ FIGURE -01
 
 
 **
-Simulation output: 
+**Simulation output:** 
 **
 
 
