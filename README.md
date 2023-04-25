@@ -50,7 +50,8 @@ CIRCUIT DIAGRAM
 ![image](https://user-images.githubusercontent.com/36288975/163530788-eec3cdc3-95e8-4d2d-8349-6d0ea4c9439c.png)
 
 **FIGURE -01
-**
+**<br>
+![image](https://github.com/SanjayKumar-M/Introduction-To-Rootics/blob/main/Screenshot%20(23).png)
 
 **PROCEDURE:**
 
@@ -67,7 +68,26 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
- 
+ ``` python
+ #include <SoftwareSerial.h>
+
+#define LED 3
+#define KNOB 0
+
+void setup() {
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int val = analogRead(KNOB);
+  int ledPower = map(val, 1, 1024, 1, 255);
+
+  String stringOne = "Sensor value: ";
+  Serial.println(stringOne + ledPower);
+  analogWrite(LED, ledPower);
+}
+ ```
 
 
 
@@ -79,7 +99,8 @@ CIRCUIT DIAGRAM
 
 **
 **Simulation output:** 
-**
+**<br>
+![image](https://github.com/SanjayKumar-M/Introduction-To-Rootics/blob/main/Screenshot%20(23).png)
 
 
 [My image](username.github.com/repository/img/image.jpg)
